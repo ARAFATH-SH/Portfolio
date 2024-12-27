@@ -35,8 +35,10 @@ nav{
     font-size: 20px;
     color: #474747;
     text-align: center;
-    margin: 25px 300px;
-
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
 }
 .nav-title{
     color: black;
@@ -96,4 +98,19 @@ nav a{
     padding: 130px;
     border-radius: 10px;
     margin: 130px 0px;
+}
+.aboutinfo-container{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutinfo{
+    text-align: center;
+}
+.info-title{
+    font-weight: normal;
+    color: #474747;
+}
+.info-description{
+    font-weight: bolder;
+    font-size: larger;
 }
