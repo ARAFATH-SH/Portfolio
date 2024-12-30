@@ -38,6 +38,7 @@ nav{
 }
 main{
     max-width: 1140px;
+    max-height: 550px;
     margin: 0px auto;
 }
 .nav-title{
@@ -113,4 +114,10 @@ nav a{
 .info-description{
     font-weight: bolder;
     font-size: larger;
+}
+
+/* what i do */
+
+#what-i-do-des{
+    padding: 30px 150px;
 }
