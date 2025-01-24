@@ -107,5 +107,81 @@ main{
     border: 0px;
     font-size: 15px;
     font-weight: 600;
-    padding: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.left-section{
+    text-align: left;
+    max-width: 40%;
+}
+.left-section h1{
+    color: #000;
+    font-size: 36px;
+    margin: 10px 0;
+}
+.left-section h1 span{
+    color: #FF0000;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+.left-section p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+.circle-img{
+    position: relative;
+    border: 6px solid red;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+.circle-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-section {
+    text-align: center;
+    max-width: 40%;
+}
+.right-section h2 {
+    color: red;
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+.right-section p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0 0 10px;
+}
+.right-section img{
+    width: 100px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.sale-container{
+    height: 100%;
+    background: url(Images/Rectangle\ 2.png) bottom no-repeat;
+}
+.image{
+    display: flex;
+}
+.sale img{
+   position: relative;
+   align-items: center;
+   justify-content: right;
 }
